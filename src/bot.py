@@ -1,7 +1,7 @@
 import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
-from main import create_card
+from src.main import create_card
 from dotenv import dotenv_values
 
 secrets = dotenv_values(".env")
